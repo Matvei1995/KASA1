@@ -1,0 +1,45 @@
+$color-primary: #ff6060;
+.navbar__logo{
+  img{
+    width: 70%;
+    @media (max-width:500px){
+      width: 50%;
+    }
+  }
+
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $color-primary;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+
+  @media (max-width: 768px) {
+    text-transform: uppercase;
+  }
+
+  &_to-home_to-about {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  &_to-home {
+    padding-right: 55px;
+  }
+
+  &_to-about,
+  &_to-home {
+    text-decoration-line: none;
+
+    color: $color-primary;
+
+    &:hover,
+    &:focus {
+      text-decoration-line: underline;
+    }
+  }
+}
