@@ -1,9 +1,9 @@
-//@import '../../configstyles/Variables.scss';
+@import '../../styles/index.scss';
 .container_footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $footer-color;
+  background-color: #000000;
   color: white;
   justify-content: space-between;
   padding-top: 25px;

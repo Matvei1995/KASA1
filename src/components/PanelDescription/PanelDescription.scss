@@ -1,6 +1,6 @@
 //@import '../../configstyles/Variables';
 .panel__description {
-  color: $primary-color;
+  color: #ff6060;
   margin-bottom: 25px;
   flex-basis: 50%;
 
@@ -8,8 +8,8 @@
 
 .description__header {
   margin-block: 10px;
-  background-color: $primary-color;
-  color: $tertiary-color;
+  background-color: #ff6060;
+  color: #FFFFFF;
   border-radius: 6px;
   padding: 12px;
   display: flex;
@@ -17,7 +17,7 @@
   align-items: center;
 }
 .description__content {
-  background-color: $secondary-color;
+  background-color: #F6F6F6;
   border-radius: 6px;
   padding: 15px;
   position: relative;
