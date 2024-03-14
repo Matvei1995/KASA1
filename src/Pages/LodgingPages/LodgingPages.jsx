@@ -30,7 +30,7 @@ function LodgingPages() {
      }
     
      init();
-  }, []);
+  }, [location.pathname]);
 
   if (selectionLodg === null) return <div>Chargement...</div>;
 
