@@ -8,7 +8,7 @@ function LodgingCards(props) {
 
   return (
      <Link
-       to={'/Lodging' + '/' + idLodg}
+       to={'/Lodging/' + idLodg}
        state={{
          id: idLodg,
        }}
