@@ -1,8 +1,8 @@
 @import '../../configstyles/Variables';
 .LodgMain{
   padding-top: unset;
-  padding-left: 15vh;
-  padding-right: 15vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
 }
 .lodging-page {
  margin-top: 40px;
@@ -24,11 +24,7 @@
     @media (max-width: 768px) {
       flex-direction: column;
       gap: 20px;
-      .LodgMain{
-     
-      padding-left: 3vh;
-      padding-right: 3vh;
-}
+
     }
    
   }
